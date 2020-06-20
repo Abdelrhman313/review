@@ -1,0 +1,239 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+}
+
+
+/***********************************/
+
+
+/*Start Navbar Style*/
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100px;
+    transition: background-color 0.7s ease-in-out;
+}
+
+.navbar-nav li {
+    margin: 0px 10px;
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    font: bold normal 16px 'Poppins';
+    color: #fff !important;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav li.active a {
+    color: #39b93f !important;
+}
+
+.navbar .bookNow button {
+    background: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .bookNow button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/*End Navbar Style*/
+
+
+/*Start Header Style*/
+
+.header {
+    height: 624px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 220px;
+    font-family: 'PT Serif', serif;
+}
+
+.header::before {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.header .container h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.header .container hr {
+    width: 80px;
+    height: 2px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.header .container p {
+    width: 51%;
+    margin: auto;
+    color: #fff;
+    line-height: 1.67;
+    font-size: 18px;
+    text-shadow: 0px 0px 1px #222;
+}
+
+
+/*End Header Style*/
+
+
+/*Start Section Book_about*/
+
+.book_about {
+    padding: 60px 0px 100px;
+    background-color: #f5f5f5;
+}
+
+
+/*** Book Section ****/
+
+.book {
+    position: relative;
+    top: -100px;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px 5px #888;
+    border-radius: 5px;
+    z-index: 3;
+    padding: 70px 40px 60px;
+    overflow: hidden;
+}
+
+.book form div {
+    float: left;
+    margin-right: 1%;
+    border-right: 1px solid #888;
+    padding: 0px 0px 0px 10px;
+}
+
+.book form div.date {
+    width: 18%;
+}
+
+.book form div.no_peaple {
+    width: 12%;
+    border: none;
+}
+
+.book form div.phone {
+    width: 24%;
+}
+
+.book form div.name {
+    width: 20%;
+}
+
+.book form div.check {
+    border: none;
+    width: 21%;
+}
+
+.book form div p {
+    color: #999;
+}
+
+.book form div input,
+.book form div select {
+    width: 95%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.book form div input:focus {
+    border-bottom: 1px solid #39b93f;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: #222;
+}
+
+input[type='submit'] {
+    margin: 10px 15px 0px;
+    background: #333;
+    color: #fff;
+    height: 60px !important;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type='submit']:hover {
+    background-color: #39b93f;
+}
+
+.book form div span {
+    color: #d63d3d;
+}
+
+
+/***** About Section *****/
+
+.about {
+    margin-top: 40px;
+}
+
+.about .rest_chef_imgs {
+    width: 90%;
+    float: left;
+    position: relative;
+}
+
+.about .rest_chef_imgs .chef {
+    position: absolute;
+    top: -86px;
+    left: 63px;
+    width: 360px;
+}
+
+.about .details {
+    width: 80%;
+    float: right;
+    ;
+}
+
+.about .details h2 {
+    margin-bottom: 35px;
+}
+
+.about .details p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.7em;
+    color: #888;
+}
+
+
+/*End Section Book_about*/
