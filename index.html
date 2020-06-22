@@ -16,9 +16,28 @@
     <link rel="stylesheet" href="css/main.css" />
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
+
+    <!--Start Loading Page-->
+    <div id="fullpageloading">
+        <div class="spinner-container">
+            <div class="spinner spinner-left"></div>
+            <div class="spinner spinner-right"></div>
+            <span class="spinnertext">Full page loading spinner</span>
+        </div>
+    </div>
+    <!--End Loading Page-->
+
+    <!--Start Arrow To Back To Top-->
+    <div class="arrow text-center">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!--End Arrow To Back To Top-->
+
 
     <!--Start NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -220,7 +239,7 @@
                             <p>Wonderful combination of prime tenderloin, winter greens, Jerusalem artichoke puree, and oxtail reduction sauce.</p>
                         </div>
                     </div>
-                    <div class="desserts">
+                    <div class="desserts" style="display: none;">
                         <div class=" meal ">
                             <span>$20.89</span>
                             <h3>
@@ -250,7 +269,7 @@
                             <p>At Pesto, we vary these wonderful nutty biscotti, while also dipping them in melted dark chocolate for an extra layer of flavor.</p>
                         </div>
                     </div>
-                    <div class="drinks">
+                    <div class="drinks" style="display: none;">
                         <div class="meal ">
                             <span>$10.89</span>
                             <h3>
@@ -286,6 +305,267 @@
     </section>
     <!--End Restaurant Menu-->
 
+    <!--Start Our Gallary-->
+    <section class="gallary">
+        <div class="show_zomm_image">
+            <button class="clsoe_btn btn btn-danger" style="margin: 10px;">&Chi;</button>
+            <img src="" alt="Zoom Image" />
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="gallary_img">
+                    <img src="images/gallary/1.jpg" alt="gallary_image" />
+                    <div class="zoom_btn" data-class="images/gallary/1.jpg">
+                        <span>ZOOM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallary_img">
+                    <img src="images/gallary/2.jpg" alt="gallary_image" />
+                    <div class="zoom_btn" data-class="images/gallary/2.jpg">
+                        <span>ZOOM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallary_img">
+                    <img src="images/gallary/3.jpg" alt="gallary_image" />
+                    <div class="zoom_btn" data-class="images/gallary/3.jpg">
+                        <span>ZOOM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="gallary_img">
+                    <img src="images/gallary/4.jpg" alt="gallary_image" />
+                    <div class="zoom_btn" data-class="images/gallary/4.jpg">
+                        <span>ZOOM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gallary_img">
+                    <img src="images/gallary/5.jpg" alt="gallary_image" />
+                    <div class="zoom_btn" data-class="images/gallary/5.jpg">
+                        <span>ZOOM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Gallary-->
+
+    <!--Start Recent News-->
+    <section class="recent_news">
+        <h2 class="h1 text-center">Recent News</h2>
+        <div class="container">
+            <div id="carousel_Indicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">JUL 02, 2019</a>
+                                    <h4>Genuine Italian Pizza: Authenticity and Choice</h4>
+                                    <p>As an Italian restaurant, we are very proud of our delicious authentic pizzas. Our three most popular choices are the Rustica, the Toscana and...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">JUL 12, 2019</a>
+                                    <h4>Italian vs. American Spaghetti: Top 5 Differences</h4>
+                                    <p>Commonly, when we hear there is spaghetti for dinner we will be expecting a red tomato sauce with meat and more perfect seasonings poured over long...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">AUG 02, 2019</a>
+                                    <h4>The Delicious History of Lasagna and Its Origins</h4>
+                                    <p>Lasagna, could there be a more perfect dish? It’s comfort food on steroids and more perfect. Layers of cheese generously piled on top of decadent amounts...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">AUG 15, 2019</a>
+                                    <h4>Making Gelato Like a True Italian: Tips From Our Chef</h4>
+                                    <p>Most would agree that gelato is the most delicious frozen dessert; the perfect ending to any meal. With origins in Sicily, gelato has been made famous...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">SEP 15, 2019</a>
+                                    <h4>Italian Ingredients You Can Easily Grow at Home</h4>
+                                    <p>Imagine preparing an Italian dinner but having to stop cooking because you forget an ingredient and must run to the store. How nice would it be to go...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">SEP 28, 2019</a>
+                                    <h4>Our Brief Guide to Pairing Wine and Pasta the Right Waye</h4>
+                                    <p>To Italians, pasta is the food of the gods, and there is nothing better to go with a good pasta than a perfect wine. To the uninitiated, finding the right...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">OCT 05, 2019</a>
+                                    <h4>Top 10 Famous Spring Dishes in Italian Restaurants</h4>
+                                    <p>Spring is the time for growth and rebirth. One can see this throughout the countrysides of Italy with blooming flowers and budding trees. Springtime is...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">OCT 17, 2019</a>
+                                    <h4>What Makes Some Seasonings Truly Italian?</h4>
+                                    <p>When thinking of Italian cuisine, dishes like pasta enveloped in hearty sauces come to mind. Certain flavors seem to be found across the different...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="news_item">
+                                    <a href="#">NOV 10, 2019</a>
+                                    <h4>Types of Italian Sausage and Why They Are Different</h4>
+                                    <p>There are many types of Italian sausage. The main difference in Italian sausage when compared to other sausages is the seasoning. The particular...</p>
+                                    <a href="#">
+                                        Read more
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_Indicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel_Indicators" data-slide-to="1"></li>
+                    <li data-target="#carousel_Indicators" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+
+    </section>
+    <!--End Recent News-->
+
+    <!--Start Footer-->
+    <section class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="images/logo.png" />
+                </div>
+                <div class="col-sm-12">
+                    <ul class="list-unstyled footer_menu">
+                        <li>
+                            <a href="#">Menu</a>
+                        </li>
+                        <li>
+                            <span>|</span>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <span>|</span>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <span>|</span>
+                        </li>
+                        <li>
+                            <a href="#">Gallary</a>
+                        </li>
+                        <li>
+                            <span>|</span>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <ul class="list-unstyled social-list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <p class="copyright">
+                        © 2020 rest. All Rights Reserved. Privacy Policy. Design by Abdelrhman Yasser
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!--End Footer-->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.4.0.min.js "></script>
@@ -295,11 +575,5 @@
     <!-- Main File For JS Code -->
     <script src="js/main.js "></script>
 </body>
-
-</html>
-
-</html>
-
-</html>
 
 </html>
