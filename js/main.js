@@ -75,7 +75,7 @@ $(function() {
 
     $(document).ready(function() {
         "use strict";
-        $(".spinner-container").fadeOut(10000,
+        $(".spinner-container").fadeOut(6000,
             function() {
                 $("#fullpageloading").fadeOut(2000);
             });
