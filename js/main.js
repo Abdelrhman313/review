@@ -18,7 +18,7 @@ $(function() {
     //Navbar hide in Footer Section
 
     $(document).scroll(function() {
-        if (window.pageYOffset >= 4910)
+        if (window.pageYOffset >= 4900)
             $(".navbar").css("display", "none");
         else
             $(".navbar").css("display", "block");
@@ -80,8 +80,5 @@ $(function() {
                 $("#fullpageloading").fadeOut(2000);
             });
     });
-
-
-
 
 });
